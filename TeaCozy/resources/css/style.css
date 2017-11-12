@@ -1,0 +1,155 @@
+body{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+}
+
+/* HEADER SECTION */
+
+header{
+  background-color: black;
+  display: flex;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  position: fixed;
+  padding-top: 8px;
+}
+
+header img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+header nav{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+nav a{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-decoration: underline;
+}
+
+.links span{
+  padding: 20px 10px;
+}
+
+/* MISSION */
+.MissionContainer{
+  padding: 50px 0px 0px 0px;
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.OurMission{
+  display: block;
+  background-color: black;
+  width: 100%;
+}
+
+/* TEA OF THE MONTH */
+
+.Feature{
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+
+.flexfeature{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-grow: 0;
+}
+
+.item img{
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px;
+}
+
+.Feature h2, h4{
+  display: block;
+  width: 1000px;
+  margin-bottom: 10px;
+}
+
+.Feature h4{
+  margin-top: 10px;
+}
+
+.item span{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Locations */
+.Picture{
+  display: block;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+}
+
+.Picture h2{
+  display: block;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.StreetContainer{
+  display: flex;
+  width: 1200px;
+  margin: 0px 50px 50px 50px;
+}
+
+.Street{
+  justify-content: center;
+  align-content: center;
+  flex-flow: wrap column;
+  display: flex;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 20px;
+}
+
+.Street span{
+  margin: 22px auto
+}
+
+/*Ending*/
+
+.Ending{
+  display: block;
+  height: 200px;
+  text-align: center;
+  width: 100%;
+}
+
+footer{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 20px;
+}
